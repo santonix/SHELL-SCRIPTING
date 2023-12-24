@@ -1,0 +1,47 @@
+Conditions
+
+
+[[ -z STRING ]] - Empty string
+
+[[ -n STRING ]] - Not empty string
+
+[[ STRING == STRING ]] - Equal
+
+[[ STRING != STRING ]] - Not equal
+
+[[ NUM -eq NUM ]] - Equal
+
+[[ NUM -ne NUM ]] - Not equal
+
+[[ NUM -lt NUM ]] - Less than
+
+[[ NUM -le NUM ]] - Less than or equal
+
+[[ NUM -gt NUM ]] - Greater than
+
+[[ NUM -ge NUM ]] - Greater than or equal
+
+[[ ! EXPR ]] - Not
+
+[[ X && Y ]] - And
+
+[[ X || Y ]] - Or
+
+File Conditions
+
+[[ -e FILE ]] - Exists
+
+[[ -r FILE ]] - Readable
+
+[[ -h FILE ]] - Symbolic link
+
+[[ -d FILE ]] - Directory
+
+[[ -w FILE ]] - Writable file
+
+[[ -s FILE ]] - File size is > 0 bytes
+
+[[ -f FILE ]] - File
+
+[[ -x FILE ]] - Executable file
+
